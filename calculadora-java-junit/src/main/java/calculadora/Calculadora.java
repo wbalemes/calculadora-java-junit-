@@ -29,8 +29,8 @@ public class Calculadora {
 		System.out.println("Resultado é: " + divi);
 
 		
-		double pote = calc.potencia(num1, num2);
-		System.out.println("Resultado é: " + pote);
+		double poten = calc.potencia(num1, num2);
+		System.out.println("Resultado é: " + poten);
 		input.close();
 	}
 
