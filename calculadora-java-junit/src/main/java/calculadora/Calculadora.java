@@ -5,25 +5,31 @@ public class Calculadora {
 	public static void main(String[] args) {
 		Calculadora calc = new Calculadora();
 		Scanner input = new Scanner(System.in);
-		System.out.println();
+		
+		System.out.println("Entre com o primeiro numero");
+		int num1 = input.nextInt();
+		System.out.println("Entre com o segundo numero");
+		int num2 = input.nextInt();
+		
+		
 		int soma;
-		soma = calc.somar(10, 10);
+		soma = calc.somar(num1, num2);
 		System.out.println("Resultado é: " + soma);
 
 		int sub;
-		sub = calc.subtracao(10, 5);
+		sub = calc.subtracao(num1, num2);
 		System.out.println("Resultado é: " + sub);
 
 		int multi;
-		multi = calc.multiplicar(10, 7);
+		multi = calc.multiplicar(num1, num2);
 		System.out.println("Resultado é: " + multi);
 
 		int divi;
-		divi = calc.dividir(10, 2);
+		divi = calc.dividir(num1, num2);
 		System.out.println("Resultado é: " + divi);
 
 		double pote;
-		pote = calc.potencia(10, 2);
+		pote = calc.potencia(num1, num2);
 		System.out.println("Resultado é: " + pote);
 		input.close();
 	}

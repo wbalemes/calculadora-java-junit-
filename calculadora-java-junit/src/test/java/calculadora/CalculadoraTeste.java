@@ -8,11 +8,13 @@ class CalculadoraTeste {
 	int num1 = 2;
 	int num2 = 2;	
 	int resultado = 0;
+	
 /*	@Test
 	void testMain() {
 		fail("Not yet implemented");
 	}
 */
+	
 	@Test
 	public void testSomar() {
 		Calculadora calc = new Calculadora();
