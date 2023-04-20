@@ -5,7 +5,7 @@ somar(numeroUm + NumeroDois)
 subtrair(numeroUm - NumeroDois)
 multiplicar(numeroUm * numeroDois)
 dividir(numeroUm / numeroDois)
-potenciar(numeroUm ^ numeroDois) 
+potenciar(numeroUm ^ numeroDois)
 
 Também criamos um teste unitário com o obejtvo de testar cada um dos métodos.
 
