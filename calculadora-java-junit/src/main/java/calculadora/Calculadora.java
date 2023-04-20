@@ -12,24 +12,24 @@ public class Calculadora {
 		int num2 = input.nextInt();
 		
 		
-		int soma;
-		soma = calc.somar(num1, num2);
+		
+		int soma = calc.somar(num1, num2);
 		System.out.println("Resultado é: " + soma);
 
-		int sub;
-		sub = calc.subtracao(num1, num2);
+		
+		int sub = calc.subtracao(num1, num2);
 		System.out.println("Resultado é: " + sub);
 
-		int multi;
-		multi = calc.multiplicar(num1, num2);
+		
+		int multi = calc.multiplicar(num1, num2);
 		System.out.println("Resultado é: " + multi);
 
-		int divi;
-		divi = calc.dividir(num1, num2);
+		
+		int divi = calc.dividir(num1, num2);
 		System.out.println("Resultado é: " + divi);
 
-		double pote;
-		pote = calc.potencia(num1, num2);
+		
+		double pote = calc.potencia(num1, num2);
 		System.out.println("Resultado é: " + pote);
 		input.close();
 	}
