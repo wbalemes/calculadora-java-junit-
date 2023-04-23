@@ -10,7 +10,7 @@ potenciar(numeroUm ^ numeroDois)
 Também criamos um teste unitário com o obejtvo de testar cada um dos métodos.
 
 Ferramentas e tecnologias utilizadas:
-- JUnit 5
+- Junit 5
 - IDE Eclipse 2023.03 e NetBens 14
 - Apache Maven
 - Java JDK 18
